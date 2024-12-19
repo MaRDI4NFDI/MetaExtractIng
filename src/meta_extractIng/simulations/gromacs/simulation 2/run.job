@@ -1,0 +1,16 @@
+#!/bin/bash
+#MSUB -l nodes=1:ppn=28
+#MSUB -l walltime=24:00:00
+#MSUB -N edcHex_3_2
+
+simNum=2
+
+mpirun -np 8 gmx_mpi mdrun -s run.tpr -cpi run.cpt -maxh 24 -dlb no -deffnm run -c -e -g -o -cpo -append
+
+cp run.job temp.job
+sed -i "s/simNum=$simNum/simNum=$((simNum+1))/" temp.job
+sed -i "s/edcHex_3_$simNum/edcHex_3_$((simNum+1))/" temp.job
+mv temp.job run.job
+
+sleep 20
+if [ -f run.cpt ]; then msub run.job;fi

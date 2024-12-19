@@ -1,0 +1,86 @@
+institute = Institute of Thermodynamics and Thermal Process Engineering
+name = Hamzeh
+lastname = Kraus
+firstname = Hamzeh
+address = Pfaffenwaldring 9, 70569 Stuttgart
+affiliation.name = Institute of Thermodynamics and Thermal Process Engineering, University of Stuttgart
+affiliation.email = hansen@itt.uni-stuttgart.de
+contact.id = https://www.itt.uni-stuttgart.de/institut/team/mitarbeiter/Kraus-00003/
+contact.role = ContactPerson
+email = kraus@itt.uni-stuttgart.de
+
+creator.name = Hamzeh Kraus
+creator.firstname = Hamzeh
+creator.lastname = Kraus
+creator.address = Pfaffenwaldring 9, 70569 Stuttgart
+creator.affiliation.name = ITT
+creator.affiliation.address = Pfaffenwaldring 9, 70569 Stuttgart
+creator.email = kraus@itt.uni-stuttgart.de
+creator.id = https://www.itt.uni-stuttgart.de/institut/team/mitarbeiter/Kraus-00003/
+creator.role = Producer
+
+
+contributor.name = Björn Schembera
+contributor.firstname = Björn
+contributor.lastname = Schembera
+contributor.address = Nobelstr. 19, 70569 Stuttgart
+contributor.affiliation.name = HLRS
+contributor.affiliation.address = Nobelstr. 19, 70569
+contributor.email = schembera@hlrs.de
+contributor.id = 0000-0003-2860-6621
+contributor.role = DataManager
+
+project.value = DIPL-ING
+project.level = 1 
+
+fundingReference.funderName = BMBF
+fundingReference.funderIdentifier = Other
+fundingReference.awardNumber = 16FMD008
+
+worked = yes 
+workedNote = After the second run, simulation worked
+
+title = The simulation of Hexane
+
+description = Simulation done with GROMACS.  300K and 80%/20% ratio.
+
+resourceType = Dataset
+
+dates.date = 2019-02-20
+
+subject = Thermodynamics
+
+var1.name = temperature
+var2.name = thermostat
+var3.name = pressure
+var4.name = barostat
+
+version = 1.2
+
+mode = Simulation
+
+provenance.processingStep.type = generation
+
+
+provenance.processingStep.method.name.value = MD 
+provenance.processingStep.method.name.methodScheme
+provenance.processingStep.method.name.schemeURI
+provenance.processingStep.method.name.valueURI
+provenance.processingStep.method.description
+provenance.processingStep.method.parameter.name
+provenance.processingStep.method.parameter.symbol
+provenance.processingStep.method.parameter.value
+provenance.processingStep.method.parameter.encoding 
+provenance.processingStep.method.parameter.error 
+
+provenance.processingStep.errormethod.name.value
+provenance.processingStep.errormethod.name.methodScheme
+provenance.processingStep.errormethod.name.schemeURI
+provenance.processingStep.errormethod.name.valueURI
+provenance.processingStep.errormethod.description
+provenance.processingStep.errormethod.parameter.name
+provenance.processingStep.errormethod.parameter.symbol
+provenance.processingStep.errormethod.parameter.value
+provenance.processingStep.errormethod.parameter.encoding
+provenance.processingStep.errormethod.parameter.error
+

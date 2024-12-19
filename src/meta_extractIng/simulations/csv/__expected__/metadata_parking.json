@@ -1,0 +1,42 @@
+{
+    "name: variable": {
+        "has value": "#Value",
+        "description": "Indicates the most likely location type. 4 archetypey available (parking, fueling station, truck stop, rest area). This also indicates the availability of surrounding infrastructure or services."
+    },
+    "lat: variable": {
+        "has value": "#Value",
+        "description": "Latitude information from the respective cluster centroid. WGS-84 format"
+    },
+    "lon: variable": {
+        "has value": "#Value",
+        "description": "Longitude information from the respective cluster centroid. WGS-84 format"
+    },
+    "totalArea_m2: variable": {
+        "has value": "#Value",
+        "description": "The estimated total area of this location in m2. Most likely only publicly accessible areas. We note that not the whole area must be accessible for truck parking and that this may also include roads and other service areas. Empty if this information is not available for the respective location. "
+    },
+    "truckParkingConfidence: variable": {
+        "has value": "#Value",
+        "description": "Indicates the confidence about whether or not this location is equipped or accessible for truck parking. Filtered, only 2 types (medium, high) available."
+    },
+    "country: variable": {
+        "has value": "#Value",
+        "description": "Assigned country (EU-27, EFTA, UK)"
+    },
+    "CLC: variable": {
+        "has value": "#Value",
+        "description": "CORINE Land Cover information (CLC 2018)"
+    },
+    "TenTcore_km: variable": {
+        "has value": "#Value",
+        "description": "Calculated aerial distance in kilometers to the TenTec Core road network. Empty if above certain threshold (around 0.1 decimals degrees)"
+    },
+    "TenTcomp_km: variable": {
+        "has value": "#Value",
+        "description": "Calculated aerial distance in kilometers to the TenTec Comprehensive road network. Empty if above certain threshold (around 0.1 decimals degrees)"
+    },
+    "source: variable": {
+        "has value": "#Value",
+        "description": "Source of the data"
+    }
+}

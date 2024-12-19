@@ -1,0 +1,447 @@
+{
+    "Field": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "is in domain of": {
+            "represents variable": "object property"
+        },
+        "is in range of": {
+            "field": "object property"
+        }
+    },
+    "activity": {
+        "has super-classes": {
+            "process": "class"
+        },
+        "has sub-classes": {
+            "processing step": "class"
+        },
+        "is in domain of": {
+            "qualified association": "object property",
+            "has participant": "object property",
+            "uses instrument": "object property"
+        }
+    },
+    "agent": {
+        "has sub-classes": {
+            "organization": "class",
+            "person": "class",
+            "software agent": "class"
+        },
+        "is in range of": {
+            "has agent": "object property",
+            "has participant": "object property"
+        }
+    },
+    "assignment": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "has sub-classes": {
+            "numerical assignment": "class"
+        },
+        "is in domain of": {
+            "has assignment timestamp": "data property",
+            "has date assignment created": "data property",
+            "has date assignment deleted": "data property",
+            "has date assignment modified": "data property",
+            "has date assignment valid from": "data property",
+            "has date assignment valid until": "data property",
+            "has assigned value": "object property",
+            "has variable": "object property",
+            "is assignment for": "object property"
+        },
+        "is in range of": {
+            "has runtime assignment": "object property",
+            "is value in assignment": "object property",
+            "is variable in assignment": "object property"
+        }
+    },
+    "association": {
+        "is in domain of": {
+            "had role": "object property"
+        },
+        "is in range of": {
+            "qualified association": "object property"
+        }
+    },
+    "bibliographic record": {},
+    "coverage interval": {
+        "has super-classes": {
+            "uncertainty declaration": "class"
+        },
+        "is in domain of": {
+            "has interval maximum": "data property",
+            "has interval minimum": "data property",
+            "has standard uncertainty": "data property",
+            "has coverage probability": "data property",
+            "has statistical distribution": "data property"
+        },
+        "is in range of": {
+            "has coverage interval": "object property"
+        }
+    },
+    "dataset": {
+        "has sub-classes": {
+            "dataset series": "class"
+        },
+        "is in domain of": {
+            "has distribution": "object property",
+            "in series": "object property"
+        }
+    },
+    "dataset series": {
+        "has super-classes": {
+            "dataset": "class"
+        },
+        "is in range of": {
+            "in series": "object property"
+        }
+    },
+    "distribution": {
+        "is in domain of": {
+            "file size (in bytes)": "data property",
+            "compression format": "object property",
+            "download URL": "object property",
+            "media type": "object property",
+            "packaging format": "object property"
+        },
+        "is in range of": {
+            "has distribution": "object property"
+        }
+    },
+    "expanded uncertainty": {
+        "has super-classes": {
+            "uncertainty declaration": "class"
+        },
+        "is in domain of": {
+            "has coverage factor": "data property",
+            "has uncertainty": "data property",
+            "has coverage probability": "data property",
+            "has statistical distribution": "data property"
+        },
+        "is in range of": {
+            "has expanded uncertainty": "object property"
+        }
+    },
+    "file object": {},
+    "file set": {
+        "has super-classes": {
+            "intangible": "class"
+        }
+    },
+    "intangible": {
+        "has sub-classes": {
+            "Field": "class",
+            "file set": "class",
+            "record set": "class",
+            "quantity kind": "class",
+            "unit": "class",
+            "uncertainty declaration": "class",
+            "assignment": "class",
+            "value": "class",
+            "variable": "class"
+        }
+    },
+    "method": {
+        "has super-classes": {
+            "realizable entity": "class"
+        },
+        "is in domain of": {
+            "implemented by": "object property"
+        },
+        "is in range of": {
+            "implements": "object property",
+            "realizes method": "object property"
+        }
+    },
+    "numerical assignment": {
+        "has super-classes": {
+            "assignment": "class"
+        },
+        "is in domain of": {
+            "has assignment timestamp": "data property",
+            "has date assignment created": "data property",
+            "has date assignment deleted": "data property",
+            "has date assignment modified": "data property",
+            "has date assignment valid from": "data property",
+            "has date assignment valid until": "data property"
+        }
+    },
+    "numerical variable": {
+        "has super-classes": {
+            "variable": "class"
+        },
+        "has sub-classes": {
+            "real": "class"
+        },
+        "is in domain of": {
+            "has maximum value": "data property",
+            "has minimum value": "data property",
+            "has numerical value": "data property",
+            "has step size": "data property",
+            "has coverage interval": "object property",
+            "has expanded uncertainty": "object property",
+            "has kind of quantity": "object property",
+            "has uncertainty declaration": "object property",
+            "has unit": "object property",
+            "has symbol": "data property",
+            "has value": "data property",
+            "has variable description": "data property"
+        }
+    },
+    "organization": {
+        "has super-classes": {
+            "agent": "class"
+        },
+        "is in domain of": {
+            "has ROR ID": "data property"
+        }
+    },
+    "person": {
+        "has super-classes": {
+            "agent": "class"
+        },
+        "is in domain of": {
+            "has ORCID ID": "data property"
+        }
+    },
+    "process": {
+        "has sub-classes": {
+            "activity": "class"
+        },
+        "is in domain of": {
+            "realizes": "object property",
+            "precedes": "object property",
+            "immediately precedes": "object property"
+        },
+        "is in range of": {
+            "realized in": "object property",
+            "precedes": "object property",
+            "immediately precedes": "object property"
+        }
+    },
+    "processing step": {
+        "has super-classes": {
+            "activity": "class"
+        },
+        "is in domain of": {
+            "usage instruction": "data property",
+            "end time": "data property",
+            "start time": "data property",
+            "starts with": "object property",
+            "ends with": "object property",
+            "has employed tool": "object property",
+            "has runtime assignment": "object property",
+            "investigates": "object property",
+            "investigates property": "object property",
+            "realizes method": "object property"
+        },
+        "is in range of": {
+            "starts with": "object property",
+            "ends with": "object property",
+            "is employed tool": "object property"
+        }
+    },
+    "project": {
+        "has sub-classes": {
+            "research project": "class"
+        },
+        "is in domain of": {
+            "project end date": "data property",
+            "has project ID": "data property",
+            "project start date": "data property",
+            "project participant": "object property"
+        },
+        "is in range of": {
+            "associated to project": "object property"
+        }
+    },
+    "property": {
+        "has super-classes": {
+            "variable": "class"
+        },
+        "is in range of": {
+            "investigates property": "object property"
+        },
+        "is in domain of": {
+            "has symbol": "data property",
+            "has value": "data property",
+            "has variable description": "data property"
+        }
+    },
+    "quantity kind": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "is in range of": {
+            "has kind of quantity": "object property"
+        }
+    },
+    "quantity value": {
+        "has super-classes": {
+            "value": "class"
+        }
+    },
+    "real": {
+        "has super-classes": {
+            "numerical variable": "class"
+        },
+        "is in domain of": {
+            "has maximum value": "data property",
+            "has minimum value": "data property",
+            "has numerical value": "data property",
+            "has step size": "data property",
+            "has symbol": "data property",
+            "has value": "data property",
+            "has variable description": "data property"
+        }
+    },
+    "realizable entity": {
+        "has sub-classes": {
+            "method": "class"
+        },
+        "is in domain of": {
+            "realized in": "object property"
+        },
+        "is in range of": {
+            "realizes": "object property"
+        }
+    },
+    "record set": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "is in domain of": {
+            "field": "object property"
+        }
+    },
+    "research project": {
+        "has super-classes": {
+            "project": "class"
+        },
+        "is in domain of": {
+            "project end date": "data property",
+            "has project ID": "data property",
+            "project start date": "data property"
+        }
+    },
+    "role": {
+        "has members": {
+            "contact person": "named individual",
+            "data collector": "named individual",
+            "data curator": "named individual",
+            "data manager": "named individual",
+            "distributor": "named individual",
+            "editor": "named individual",
+            "hosting institution": "named individual",
+            "other person": "named individual",
+            "producer": "named individual",
+            "project leader": "named individual",
+            "project manager": "named individual",
+            "project member": "named individual",
+            "registration agency": "named individual",
+            "registration authority": "named individual",
+            "related person": "named individual",
+            "research group": "named individual",
+            "researcher": "named individual",
+            "rights holder": "named individual",
+            "sponsor": "named individual",
+            "supervisor": "named individual",
+            "work package leader": "named individual"
+        }
+    },
+    "software agent": {
+        "has super-classes": {
+            "agent": "class"
+        }
+    },
+    "text variable": {
+        "has super-classes": {
+            "variable": "class"
+        },
+        "is in domain of": {
+            "has string value": "data property",
+            "has symbol": "data property",
+            "has value": "data property",
+            "has variable description": "data property"
+        }
+    },
+    "tool": {
+        "is in domain of": {
+            "implements": "object property",
+            "is employed tool": "object property"
+        },
+        "is in range of": {
+            "has employed tool": "object property",
+            "implemented by": "object property"
+        }
+    },
+    "uncertainty declaration": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "has sub-classes": {
+            "coverage interval": "class",
+            "expanded uncertainty": "class"
+        },
+        "is in domain of": {
+            "has coverage probability": "data property",
+            "has statistical distribution": "data property"
+        },
+        "is in range of": {
+            "has uncertainty declaration": "object property"
+        }
+    },
+    "unit": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "is in domain of": {
+            "is admissible unit for": "object property"
+        },
+        "is in range of": {
+            "has admissible unit": "object property",
+            "has unit": "object property"
+        }
+    },
+    "value": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "has sub-classes": {
+            "quantity value": "class"
+        },
+        "is in domain of": {
+            "is admissible value for": "object property",
+            "is value in assignment": "object property"
+        },
+        "is in range of": {
+            "has admissible value": "object property",
+            "has assigned value": "object property"
+        }
+    },
+    "variable": {
+        "has super-classes": {
+            "intangible": "class"
+        },
+        "has sub-classes": {
+            "numerical variable": "class",
+            "text variable": "class",
+            "property": "class"
+        },
+        "is in domain of": {
+            "has symbol": "data property",
+            "has value": "data property",
+            "has variable description": "data property",
+            "has admissible value": "object property",
+            "is variable in assignment": "object property"
+        },
+        "is in range of": {
+            "has parameter": "object property",
+            "has variable": "object property",
+            "is admissible value for": "object property"
+        }
+    }
+}

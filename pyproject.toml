@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools.package-data]
+"*"= ["lib/config.json"]
+
+[tool.poetry.packages]
+include = ["lib"]
+
+[project]
+name = "meta-extractIng"
+description = "A tool to extract metadata from simulation softwares, and create JSON-LD structure according to Metadata4ing ontology"
+readme = "README.md"
+keywords = [
+    "Metadata Extractor", 
+    "CSV", 
+    "NetCDF", 
+    "OpenDihu", 
+    "GROMACS",
+    "Metadata4Ing Ontology"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "requests",
+    "rdflib"
+]
+version = "1.0.7"

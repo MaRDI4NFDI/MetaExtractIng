@@ -1,0 +1,40 @@
+{
+    "csv_dict": {
+        "headers": [
+            "id",
+            "name",
+            "lat",
+            "lon",
+            "totalArea_m2",
+            "truckParkingConfidence",
+            "country",
+            "CLC",
+            "TenTcore_km",
+            "TenTcomp_km",
+            "source"
+        ],
+        "rows": {
+            "12304": {
+                "name": "Rest Area",
+                "lat": "472.129",
+                "lon": "201.361",
+                "totalArea_m2": "303123",
+                "truckParkingConfidence": "High",
+                "country": "HU",
+                "CLC": "133",
+                "TenTcomp_km": "4.171.969.816",
+                "source": "Mixed"
+            },
+            "12305": {
+                "name": "Rest ABC",
+                "lat": "472.129",
+                "lon": "201.361",
+                "totalArea_m2": "303123",
+                "truckParkingConfidence": "High",
+                "country": "HU",
+                "CLC": "133",
+                "TenTcomp_km": "4.171.969.816"
+            }
+        }
+    }
+}
