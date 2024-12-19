@@ -54,3 +54,10 @@ Main repository consists of four main folders:
 - **NetCDF**: It extracts dimensions, variables, and global attributes from a CDL content file.
 - **OpenDiHu**: It processes an OpenDiHu log file, extracting metadata between specific markers.
 - **GROMACS**: It processes a folder containing GROMACS output files, including `job`, `log`, `usermd` and `mdp` files, extracting metadata from them.
+
+## Authors
+
+The code was developed by Mahdi Jafarkhani, based on a prior development by Mohammed Asjadulla. The development was supervised by Björn Schembera
+
+## Acknowledgements 
+The work has been funded by the DFG (German Research Foundation), project number 460135501, NFDI 29/1 “MaRDI – Mathematische Forschungsdateninitiative”.
