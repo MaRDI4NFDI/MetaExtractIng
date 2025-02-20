@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title:           "MetaExtractIng - Metadata extractor for engineering simulation data"
+type:            software
+version:         v1.0.0
+date-released:   2025-02-18
+repository-code: https://github.com/MaRDI4NFDI/MetaExtractIng
+license:         GPL-3.0
+abstract:        "MetaExtractIng is a tool for extracting important enginering metadata from CSV, NetCDF, OpenDiHu and GROMACS files and storing it into a JSON-LD file, according to the Metadata4Ing ontology"
+keywords:
+  - Metadata
+  - Metadaten
+  - Engineering
+  - Ingenieurwesen
+  - NFDI
+  - NFDI4Ing
+  - MaRDI
+  - Metadatenextraktion
+  - Metadata Extraction
+  - Ontologie
+  - Ontology
+  - Knowledge Graph
+  - Software
+  - Extractor
+  - Crawler
+authors:
+  - family-names: Schembera
+    given-names:  Björn
+    orcid:        https://orcid.org/0000-0003-2860-6621
+    email: bjoern.schembera@mathematik.uni-stuttgart.de
