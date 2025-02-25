@@ -1,7 +1,7 @@
 
-# `meta_extractIng`
+# metaExtractIng
 
-`meta_extractIng` is a tool for extracting important metadata from CSV, NetCDF, OpenDiHu and GROMACS files and storing it into a JSON-LD file., according to Metdata4ING **[Metadata4Ing](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/)** ontology. This README provides instructions on how to run `meta_extractIng` and generate the desired jsonld file.
+metaExtractIng is a tool for extracting important metadata from CSV, NetCDF, OpenDiHu and GROMACS files and storing it into a JSON-LD file, according to Metdata4ING **[Metadata4Ing](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/)** ontology. This README provides instructions on how to run metaExtractIng and generate the desired jsonld file.
 
 ## Installing `meta_extractIng` via package manager
 Currently, you can download the package `meta_extractIng` via PyPI Test repository:
