@@ -2,9 +2,9 @@
 
 # metaExtractIng
 
-metaExtractIng is a tool for extracting important metadata from CSV, NetCDF, OpenDiHu and GROMACS files and storing it into a JSON-LD file, according to Metdata4ING **[Metadata4Ing](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/)** ontology. This README provides instructions on how to run metaExtractIng and generate the desired jsonld file.
+metaExtractIng is a tool for extracting important metadata from CSV, NetCDF, OpenDiHu and GROMACS files and storing it into a JSON-LD file, according to **[Metadata4Ing](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/)** ontology. This README provides instructions on how to run metaExtractIng and generate the desired JSON-LD file.
 
-## Installing `meta_extractIng` via package manager
+## Installing metaExtractIng via package manager
 Currently, you can download the package `meta_extractIng` via PyPI Test repository:
 
     pip install -i https://test.pypi.org/simple/ meta-extractIng
@@ -22,7 +22,7 @@ After running each one of the `extract()` methods, you will be asked to give the
 
 The program uses **[Metadata4Ing](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/ontology.xml)** ontology as default. If you want to switch to another ontology, you can change the `URL` and `context_URL` values in the `config.json` file in `lib` folder, where your package is installed on your computer.
 
-## Running `meta_extractIng` via source code
+## Running metaExtractIng via source code
 
 Navigate to `src/meta_extractIng` folder and run in terminal:
 
@@ -58,7 +58,7 @@ Main repository consists of four main folders:
 
 ## Authors
 
-The code was developed by Mahdi Jafarkhani, based on a prior development by Mohammed Asjadulla. The development was supervised by Björn Schembera
+The code was developed by Mahdi Jafarkhani, based on a prior development by Mohammed Asjadulla. The development was supervised by Björn Schembera.
 
 ## Acknowledgements 
 The work has been funded by the DFG (German Research Foundation), project number 460135501, NFDI 29/1 “MaRDI – Mathematische Forschungsdateninitiative”.
